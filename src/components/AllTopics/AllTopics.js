@@ -8,7 +8,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 
 const AllTopics = () => {
     const allTopics = useLoaderData();
-    console.log(allTopics.data);
+
     return (
         <div>
             <div className='mt-5'>

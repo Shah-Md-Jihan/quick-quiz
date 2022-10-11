@@ -9,7 +9,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 
 const Topics = () => {
     const allTopics = useLoaderData();
-    console.log(allTopics.data);
+
     return (
         <div className='mt-5'>
             <h3 className='pb-5'>Quiz Categories:</h3>
