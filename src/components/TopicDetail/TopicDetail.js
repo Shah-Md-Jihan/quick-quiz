@@ -27,7 +27,6 @@ const TopicDetail = () => {
     const handleAnswer = (ans, corrAns) => {
 
         if (ans === corrAns) {
-            // console.log('uttor sothik');
             toast.success('Your answer is correct !', {
                 position: "top-right",
                 autoClose: 5000,
@@ -90,7 +89,7 @@ const TopicDetail = () => {
                                                 <Card className='h-100'>
                                                     <Card.Body>
                                                         <Card.Text>
-                                                            <input style={qr_btn} onClick={() => handleAnswer(option, question.id, question.correctAnswer)} className='me-2' type="radio" id={option} name={question.id} value={option}></input>
+                                                            <input style={qr_btn} onClick={() => handleAnswer(option, question.correctAnswer)} className='me-2' type="radio" id={option} name={question.id} value={option}></input>
                                                             {option}
                                                         </Card.Text>
                                                     </Card.Body>
