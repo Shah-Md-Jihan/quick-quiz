@@ -1,0 +1,14 @@
+.banner {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/04/27/02/94/1000_F_427029445_YPQB3gGH1rn6aLSTYZFxkQxoYZxzjes8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.banner_content_container {
+    background-color: #00000087;
+    color: #fff;
+    height: 400px;
+}
