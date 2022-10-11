@@ -3,6 +3,7 @@ import './App.css';
 import AllTopics from './components/AllTopics/AllTopics';
 import Blogs from './components/Blogs/Blogs';
 import Home from './components/Home/Home';
+import NotFoundError from './components/NotFoundError/NotFoundError';
 import Statistics from './components/Statistics/Statistics';
 import TopicDetail from './components/TopicDetail/TopicDetail';
 import Main from './layouts/Main';
@@ -38,6 +39,10 @@ function App() {
         {
           path: 'blogs',
           element: <Blogs></Blogs>
+        },
+        {
+          path: '*',
+          element: <NotFoundError></NotFoundError>
         }
       ]
     }
