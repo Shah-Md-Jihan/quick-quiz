@@ -8,6 +8,7 @@ import Statistics from './components/Statistics/Statistics';
 import TopicDetail from './components/TopicDetail/TopicDetail';
 import Main from './layouts/Main';
 
+
 function App() {
   const router = createBrowserRouter([
     {
