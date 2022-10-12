@@ -20,6 +20,7 @@ const TopicDetail = () => {
 
     const { name, questions } = topic.data;
     let sl = 1;
+
     const qr_btn = {
         cursor: 'pointer'
     };
@@ -37,6 +38,7 @@ const TopicDetail = () => {
                 progress: undefined,
                 theme: "colored",
             });
+
 
         } else {
             toast.error('Your answer is wrong !', {
