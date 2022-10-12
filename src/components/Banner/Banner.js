@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 const Banner = () => {
     return (
-        <div className='banner'>
+        <div className='banner mt-2'>
             <div className="banner_content_container">
                 <div className="d-flex justify-content-center align-items-center h-100 flex-column">
                     <div className='w-75'>

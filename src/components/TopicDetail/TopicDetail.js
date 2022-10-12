@@ -68,7 +68,7 @@ const TopicDetail = () => {
             <Container>
                 <Card className="text-center">
                     <Card.Header>
-                        <h4>Questions of {name}</h4>
+                        <h4 className='text-info'>| Questions of {name}</h4>
                     </Card.Header>
                     {
                         questions.map(question => <Card.Body key={question.id}>

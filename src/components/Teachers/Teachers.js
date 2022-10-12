@@ -17,7 +17,7 @@ const Teachers = () => {
     return (
         <div className='my-5'>
             <Container>
-                <h3 className='py-5'>Our Teachers:</h3>
+                <h3 className='py-5 text-info'>| Our Teachers:</h3>
                 <Row xs={1} md={4} className="g-4">
                     {
                         teachers.map(teacher => <Col>

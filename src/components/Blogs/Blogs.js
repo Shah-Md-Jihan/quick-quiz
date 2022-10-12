@@ -8,7 +8,7 @@ const Blogs = () => {
             <Container>
                 <Card className='mt-5'>
                     <Card.Header>
-                        <h3>Our Blogs</h3>
+                        <h3 className='text-info'>| Our Blogs</h3>
                     </Card.Header>
                     <Card.Body className='p-4'>
                         <Card className='mb-3'>

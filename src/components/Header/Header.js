@@ -13,7 +13,7 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand>
                         <Link className='text-decoration-none text-white' to='/'>
-                            <h4><span className='text-warning'>Quick</span>Quiz</h4>
+                            <h3><span className='text-warning'>Quick</span>Quiz</h3>
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
