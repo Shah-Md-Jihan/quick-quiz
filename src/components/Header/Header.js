@@ -9,10 +9,12 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
                 <Container>
                     <Navbar.Brand>
-                        <Link className='text-decoration-none text-white' to='/'>QuickQuiz</Link>
+                        <Link className='text-decoration-none text-white' to='/'>
+                            <h4><span className='text-warning'>Quick</span>Quiz</h4>
+                        </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

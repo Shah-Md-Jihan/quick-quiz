@@ -7,7 +7,7 @@ const Statistics = () => {
     const data = useLoaderData();
     console.log(data.data);
     return (
-        <div>
+        <div className='mt-5'>
             <Container>
                 <h2 className='text-start py-5'>Total Quiz Statistics</h2>
                 <ResponsiveContainer width="95%" height={400}>

@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 const Blogs = () => {
     return (
-        <div>
+        <div className='pt-5'>
             <Container>
                 <Card className='mt-5'>
                     <Card.Header>

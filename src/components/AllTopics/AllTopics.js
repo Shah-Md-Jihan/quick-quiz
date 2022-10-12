@@ -11,7 +11,7 @@ const AllTopics = () => {
 
     return (
         <div>
-            <div className='mt-5'>
+            <div className='mt-5 pt-5'>
                 <h3 className='pb-5'>Quiz Categories:</h3>
                 <Container>
                     <Row xs={1} md={4} className="g-4">
