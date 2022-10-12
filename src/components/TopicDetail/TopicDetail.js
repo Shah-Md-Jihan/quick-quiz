@@ -11,13 +11,13 @@ import 'react-toastify/dist/ReactToastify.css';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { toast, ToastContainer } from 'react-toastify';
 
-// toast.configure()
+
 
 
 
 const TopicDetail = () => {
     const topic = useLoaderData();
-    // console.log(topic.data.questions);
+
     const { name, questions } = topic.data;
     let sl = 1;
     const qr_btn = {
