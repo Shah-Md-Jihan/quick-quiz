@@ -26,7 +26,10 @@ const Header = () => {
                                 <NavLink className='text-decoration-none me-4 text-white' to="/statistics">Statistics</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <NavLink className='text-decoration-none me-4 text-white' to="/About">About Us</NavLink>
+                                <NavLink className='text-decoration-none me-4 text-white' to="/about">About Us</NavLink>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <NavLink className='text-decoration-none me-4 text-white' to="/contact">Contact Us</NavLink>
                             </Nav.Link>
                             <Nav.Link>
                                 <NavLink className={`text-decoration-none me-4 text-white ${({ isActive }) => {

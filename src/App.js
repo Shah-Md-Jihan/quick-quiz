@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About/About';
 import AllTopics from './components/AllTopics/AllTopics';
 import Blogs from './components/Blogs/Blogs';
+import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import NotFoundError from './components/NotFoundError/NotFoundError';
 import Statistics from './components/Statistics/Statistics';
@@ -45,6 +46,10 @@ function App() {
         {
           path: 'about',
           element: <About></About>
+        },
+        {
+          path: 'contact',
+          element: <Contact></Contact>
         }
       ]
     },
