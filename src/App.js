@@ -40,12 +40,12 @@ function App() {
         {
           path: 'blogs',
           element: <Blogs></Blogs>
-        },
-        {
-          path: '*',
-          element: <NotFoundError></NotFoundError>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <NotFoundError></NotFoundError>
     }
   ]);
   return (

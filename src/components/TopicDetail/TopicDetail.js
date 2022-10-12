@@ -62,7 +62,7 @@ const TopicDetail = () => {
         theme: "colored",
     });;
     return (
-        <div className='my-5'>
+        <div className='my-5 pt-5'>
             <Container>
                 <Card className="text-center">
                     <Card.Header>
