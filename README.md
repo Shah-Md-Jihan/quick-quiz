@@ -6,11 +6,11 @@
 
 ## Complete Project With
 
-*React Router
-*Bootstrap Nav Bar
-*React Toastify
-*Bootstrap and React-Bootstrap Componet
-*Vanila CSS
+* React Router
+* Bootstrap Nav Bar
+* React Toastify
+* Bootstrap and React-Bootstrap Componet
+* Vanila CSS
 
 
 
