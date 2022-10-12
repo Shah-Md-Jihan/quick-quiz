@@ -4,6 +4,14 @@
 # live site link: 
 ### https://thriving-beignet-15c163.netlify.app/
 
+## Complete Project With
+
+*React Router
+*Bootstrap Nav Bar
+*React Toastify
+*Bootstrap and React-Bootstrap Componet
+*Vanila CSS
+
 
 
 
