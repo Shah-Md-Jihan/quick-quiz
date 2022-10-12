@@ -1,6 +1,12 @@
 # Site name:
 ### quickquiz.edu
 
+# live site link: 
+### https://thriving-beignet-15c163.netlify.app/
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
